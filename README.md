@@ -7,6 +7,7 @@ This project is a Pygame application that brings popular sorting algorithms to l
 - Five algorithms included: Bubble, Insertion, Selection, Quick, and Merge sort.
 - Distinct colors for comparisons, swaps, pivot selection, and sorted positions.
 - Keyboard controls to switch algorithms, pause the animation, reshuffle the data, and adjust speed.
+- Interactive startup prompts let you pick the array size, initial algorithm, and delay in milliseconds.
 - Gentle finishing glow when the array becomes fully sorted.
 - Optional click sound for swap steps (toggle by changing `ENABLE_AUDIO` in `settings.py`).
 - Modular code layout designed for easy addition of new algorithms or visual effects.
@@ -30,6 +31,12 @@ This project is a Pygame application that brings popular sorting algorithms to l
 ```bash
 python main.py
 ```
+
+At launch, the terminal asks you to:
+
+1. Enter how many elements to visualize.
+2. Choose an algorithm by its listed number.
+3. Pick the initial delay between steps (in milliseconds).
 
 When the Pygame window appears, use the shortcuts below:
 
